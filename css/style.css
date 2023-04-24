@@ -1,0 +1,55 @@
+.lorem_1{
+font-size: 35px;
+padding-left: 100px;
+
+}
+.lorem_1:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-left: 100px;
+    
+}
+
+
+.lorem_1::after{
+    content: "";
+    font-size: 70px;
+    background-color: blueviolet;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.lorem_2{
+font-family :sans-serif;
+max-width: 500px;
+margin-left: 300px;
+}
+
+.lorem_1::before{
+    content: "";
+    background-image: url("../images/shni.gif");
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    background-size: cover;
+    left: 30px;
+    top: 50px;
+    padding: 300px;
+}
+.lorem_2::after{
+    content: "";
+    background-image: url("../images/shni.gif");
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    padding-right: 300px;
+    padding-left: 200px;
+    top: 50px;
+    right: 30px;
+    padding-bottom: 500px;
+
+}
+
+
